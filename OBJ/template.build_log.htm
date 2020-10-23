@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Zheming Jiang, Magic Frog, LIC=FQQ9U-S4CG7-TJW6H-W9P7G-NC0L5-MZJTG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+G:\STM32\esp8266_weather_v2\USER\template.uvprojx
+Project File Date:  10/17/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling ESP8266.c...
+..\Hardware\ESP8266.c(218): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                                OLED_ShowString(0+16*5-8,20,temperature);
+..\Hardware\ESP8266.c(222): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                                OLED_ShowString(0+16*5,20,temperature);
+..\Hardware\ESP8266.c(243): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0+16*5,0,humidity);
+..\Hardware\ESP8266.c(245): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0+16*4-4,20,pressure);
+..\Hardware\ESP8266.c(253): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                                OLED_ShowString(0+16*4-4,40,apparent_temperature);
+..\Hardware\ESP8266.c(257): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                                OLED_ShowString(0+16*4+4,40,apparent_temperature);
+..\Hardware\ESP8266.c(273): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0+16*2-4,20,pm25);
+..\Hardware\ESP8266.c(274): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "const u8 *"
+                        OLED_ShowString(0+16*5+8,20,aqi);
+..\Hardware\ESP8266.c: 8 warnings, 0 errors
+compiling oled.c...
+linking...
+Program Size: Code=16302 RO-data=4610 RW-data=164 ZI-data=4252  
+FromELF: creating hex file...
+"..\OBJ\template.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  G:\STM32\esp8266_weather_v2\USER\RTE
+  D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
